@@ -40,6 +40,7 @@ if the players input is == 's'  get_user_input
   elsif the players input is == 'h' card_total +=deal_card
 else invalid_command
 end
+end
 
 def invalid_command
 prompt_user
