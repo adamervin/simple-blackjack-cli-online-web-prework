@@ -11,7 +11,7 @@ puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
-  # code #prompt_user here
+  
 end
 
 def get_user_input
