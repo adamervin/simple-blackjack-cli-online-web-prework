@@ -24,7 +24,7 @@ def end_game(number)
 end
 
 def initial_round
-  2.times do puts deal_card
+  2.times do puts "#{deal_card}"
 end
 def display_card_total
   print "#{deal_card} #{deal_card_total}"
