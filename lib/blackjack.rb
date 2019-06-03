@@ -43,14 +43,11 @@ else invalid_command
 end
 
 def invalid_command
-print  
-end
-
-#####################################################
-# get every test to pass before coding runner below #
-#####################################################
-
+puts "Please enter a valid command"
+  prompt_user
+  get_user_input
+  
 def runner
-  # code runner here
+ 
 end
     
