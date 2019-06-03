@@ -33,8 +33,10 @@ end
 
 
 
-def hit?
-
+def hit?(card_total)
+prompt_user
+get_user_input
+if the players input is 's'
 end
 
 def invalid_command
