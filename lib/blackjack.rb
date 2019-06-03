@@ -41,7 +41,6 @@ if the players input is == 's' card_total
 else invalid_command
 end
 end
-end
 
 def invalid_command
 prompt_user
