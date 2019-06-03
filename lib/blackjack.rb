@@ -39,8 +39,7 @@ user_input
 if user_input == 's' card_total
   elsif user_input == 'h' card_total += deal_card
 else invalid_command
-  end
-card_total 
+  end 
 end
 
 def invalid_command
