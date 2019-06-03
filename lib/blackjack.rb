@@ -43,7 +43,7 @@ else invalid_command
 end
 
 def invalid_command
-print  'Please enter a valid command'
+print  "#{prompt_user}Please enter a valid command'"
 end
 
 #####################################################
