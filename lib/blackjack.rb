@@ -33,13 +33,23 @@ end
 
 
 
-def hit?(card_total)
-prompt_user
-get_user_input
-if get_user_input == 's' then card_total
-  elsif get_user_input == 'h' then card_total += deal_card
-else invalid_command
-  end 
+ddef hit?(user_hand)
+  prompt_user
+  user_input = get_user_input
+
+  if user_input != 'h' && user_input != 's'
+    invalid_command
+    prompt_user
+    user_input = get_user_input
+  end
+
+  if user_input == 'h'
+    new_card = deal_card
+    user_hand += new_card
+  elsif user_input == 's'
+    user_hand
+  end
+  user_hand
 end
 
 def invalid_command
