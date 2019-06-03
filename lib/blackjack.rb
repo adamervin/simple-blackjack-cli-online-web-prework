@@ -33,7 +33,7 @@ end
 
 
 
-ddef hit?(user_hand)
+def hit?(user_hand)
   prompt_user
   user_input = get_user_input
 
