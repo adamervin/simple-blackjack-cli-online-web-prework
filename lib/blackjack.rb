@@ -28,7 +28,7 @@ def initial_round
   total = deal_card + deal_card
   
   binding.pry
-  display_card_total
+  display_card_total = total
   
 end
 
