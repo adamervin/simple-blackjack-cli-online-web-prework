@@ -41,6 +41,7 @@ if the players input is == 's'  get_user_input
 else invalid_command
 end
 end
+end
 
 def invalid_command
 prompt_user
