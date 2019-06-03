@@ -43,9 +43,8 @@ else invalid_command
 end
 
 def invalid_command
-print "Please enter a valid command"
-  prompt_user
-  get_user_input
+puts  "Please enter a valid command"
+  
 end 
 
 
