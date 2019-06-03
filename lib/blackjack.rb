@@ -29,6 +29,7 @@ end
 def display_card_total
   print "#{deal_card} #{deal_card_total}"
 end
+end
 
 
 def hit?
