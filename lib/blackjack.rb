@@ -43,7 +43,7 @@ else invalid_command
 end
 
 def invalid_command
-prompt_user
+prints #{prompt_user} 
 end
 
 #####################################################
